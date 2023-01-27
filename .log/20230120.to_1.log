@@ -1,0 +1,470 @@
+20-01-2023 23:03:39 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+20-01-2023 22:57:24 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+20-01-2023 22:56:53 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+20-01-2023 22:54:16 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+20-01-2023 22:53:22 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+20-01-2023 22:52:32 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+20-01-2023 22:51:51 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+20-01-2023 22:51:18 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+20-01-2023 22:50:55 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+20-01-2023 22:48:17 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+

@@ -1,0 +1,474 @@
+21-01-2023 21:39:07 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "8753",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"pkk.kab.cirebon\",\"tppkkkuningan\",\"tppkkmajalengka\",\"pkkkabupatenindramayu\",\"pkk.kabbdg\",\"tp_pkk_kabupaten_garut\",\"pkk.tasikmalayakab\",\"pkkkab.ciamis\",\"pkksumedang\",\"tp.pkk_kota_cimahi\",\"pkk_kotatasik\",\"pkkbdgbarat\",\"pkkpangandaran\",\"pkkdesabarengkok\",\"pkk_kelurahan_keramat\",\"tppkkdesapasirhalang\",\"tp_pkk_mekarsari\",\"tppkkciherangpacet\",\"tppkkcadassari\",\"tppkkdesapa\",\"pkkdesasukasari\",\"pkk_desasumberjaya\",\"pkkmustikajaya\",\"pkk_ciawiasih\",\"pkk_desa_jalatrang_kuningan\",\"pkk_desa_malongpong\",\"pkk_desajatibarang.indramayu\",\"pkk.desalengkong.bagja\",\"tp.pkkbinong\",\"tp_pkk_desa_tarogong\",\"pkkwargakerta\",\"pkkdesakaranganyar\",\"tppkk_kelcilembangkeccihideung\",\"tppkkkarangmekar\",\"pkk_desaciwaruga\",\"tp_pkk_sukajaya\",\"tppkk.babakan\",\"biro_umumjabar\",\"dkpkp.jakarta\",\"distanbun_jtg\",\"dipertakpjatim\",\"dinas.kptph.lampung\",\"distanpanganbali\",\"ntbdistanbun\",\"pertaniantph.sumsel\",\"distphbun_sulsel\",\"bppsdmp\",\"diskominfokrwkab\",\"prokompim.subang\",\"kecamatancileungsi\",\"kecamatanbogortengah\",\"kecamatanleuwiliang\",\"kecamatanbogortimur\",\"kec_bogorutara\",\"kecharjamukti\",\"kecamatanciawi_official\",\"desaciburial\",\"kelurahan_mulyaharja\",\"desamasawah\",\"kelurahancipaku\",\"kel_sempur\",\"kelcimahpar\",\"kel.kedungjaya\",\"kel_babakan\",\"kelurahan_dunguscariang\",\"kelurahan_lebakgede\",\"kabar.bantaeng\",\"boneterkini\",\"info.bulukumba\",\"enrekanginfo\",\"gowa_iinfo\",\"jeneponto_info\",\"selayarinformasi\",\"info.lutim\",\"info_lutra\",\"pinrangupdate\",\"sinjaiinformasi\",\"takalarinfo\",\"diskominfotanatoraja\",\"pemkabtorajautara\",\"diskominfo_palopo\",\"maros.informasi\",\"wiradinatajeje\",\"cecepnurulyakin77\",\"setdasumedang\",\"inspektoratdaerah.kab.sumedang\",\"set.dprd.sumedang\",\"disdik_sumedang\",\"dinkes_sumedang\",\"dinas.putr.kabupaten.sumedang\",\"dpkpp_smdng\",\"satpolpp_sumedang\",\"dinsos.kabsumedang\",\"disnakertrans_sumedang\",\"dlhk.sumedangkab\",\"disdukcapil_sumedang\",\"dpmdkabsumedang\",\"bidang_kb_dppkb_sumedang\",\"dishubsumedang\",\"dpmptsp.sumedang\",\"disparbudpora.kabsumedang\",\"disarpus_smd\",\"bappppedasumedang\",\"bkpsdmsumedang\",\"bkadsumedang\",\"bapenda_sumedang\",\"rsudkabsumedang\",\"kesbangpol.sumedang\",\"bpbdsumedang\",\"infobnn_kabsumedang\",\"kpusumedang\",\"humasjogja\",\"pemkot_solo\",\"pemkotdepok\",\"pemkot_balikpapan\",\"pemkotmadiun_\",\"humaskotatangsel\",\"humas_kota_tangerang\",\"kominfo_pemkot_tsm\",\"kominfopalembang\",\"h.adesugianto\",\"marwanhamamismi\",\"jejewiradinata\",\"kangolehsoleh\",\"iwansaputraofficial\",\"pemkabtasik\",\"diskopukmindagtsmkab\",\"dinsosppkbp3a.kabtasik\",\"bkpsdmkabtasik\",\"kabtasikbppd\",\"dpkpp_kabtasikmalaya\",\"budayatasik\",\"satpolppkabtasik\",\"kesdinkabtasik\",\"disdikkabtasik\",\"bpbdkabtasikmalaya.id\",\"rsud_smcibs\",\"dishubkominfokabtasik\",\"dpmptsptk\",\"disdukcapil_kabtasik\",\"arizapatria\",\"gibran_rakabuming\",\"ahmadsahroni88\",\"airinrachmidiany\",\"zitaanjani\",\"puskesmas_antapani\",\"pkm_ahmadyani\",\"uptpkmarcamanik\",\"puskesmas.astanaanyar\",\"puskesmasbabakansari\",\"pkmbabakansurabaya\",\"pkmbatar_bandung\",\"uptdpkmbabatan.bdg\",\"puskesmasbalaikota\",\"uptpuskesmascaringin\",\"uptpkmcempakaarum\",\"pkmcibaduyutkidul_bandung\",\"pkmciwet\",\"puskesmascibiruhilir\",\"puskesmascibolerang\",\"uptdpuskesmascibuntu\",\"uptpuskesmascigadung\",\"puskesmascigondewah\",\"puskesmascijagrabaru\",\"puskesmas_cijagralama\",\"uptpuskesmascijerah\",\"puskesmas.cikutralama\",\"puskesmas_cilengkrang\",\"upt_puskesmascinambo\",\"pkm_cipadung\",\"puskesmascipaku\",\"pkm.cipamokolan\",\"uptpuskesmascitarip\",\"officialpuskesmasciumbuleuit\",\"puskesmasdago\",\"puskesmasderwati\",\"uptpuskesmasgaruda\",\"puskesmasgirimande\",\"uptpuskesmasgriyaantapani\",\"uptpuskesmasgumuruh\",\"ibra.juara\",\"jajawaypuskesmas\",\"puskesmasjatihandap\",\"uptpkmkarangsetra.bdg\",\"pkmkopo_kotabdg\",\"upt_puskesmaskujangsari\",\"puskesmasledeng\",\"pkmliogentengbdg\",\"puskesmasmramdan\",\"uptpuskesmasmandalamekar\",\"pkm.margahayuraya\",\"officialpuskesmasmengger\",\"uptpuskesmasneglasari\",\"uptpkmpadasuka\",\"uptpagarsih\",\"puskesmaspamulang.bdg\",\"pkmpanghegar_bdg\",\"pkmpanyileukan\",\"puskesmas_pasirjati\",\"pkmpaskal.bdg\",\"uptdpkmpasirlayung\",\"puskesmaspasirluyu\",\"pkmpasundan\",\"uptpkmph_\",\"puskesmas_puter\",\"puskesmas_riungbandung\",\"uptpuskesmasrusunawa\",\"uptdpuskesmassalam\",\"puskesmassarijadi\",\"puskesmas_sekejati\",\"puskesmas_sekeloa\",\"pkmsindangjayabdg\",\"puskesmassukagalih\",\"pkmsukahaji\",\"sukajadipuskesmas\",\"pkmsukapakir\",\"uptdpkmsukaraja.bdg\",\"uptpkmsukarasa\",\"pkmsukawarna\",\"puskesmassuryalaya\",\"pkm_talagabodas\",\"puskesmas_tamansari\",\"puskesmas_tamblong\",\"puskesmas_ujungberungindah\",\"labkeskotabandung\",\"bdgemergency\",\"pkmpasawahanbdg\",\"dinkeskotabogor\",\"dinkeskab.karawang\",\"dinkeskotadepok\",\"dinkeskabbogor\",\"dinkes.kota.tasikmalaya\",\"dinkesmajalengka\",\"dinkeskotabekasi\",\"dinkeskabcianjur\",\"dinkeskotacimahi\",\"dinkesciamis\",\"dinkespromkeskotacirebon\",\"dinkes_indramayu\",\"dinkesbanjar\",\"purbakesa.dinkes\",\"dinkespangandaran\",\"aaiikh\",\"gracemediana\",\"ahyani_raksanagara\",\"tono_rusdiantono\",\"ddg_darmawan\",\"andri_darusman\",\"ginginginanjar66\",\"iskandar5070\",\"didi_ruswandi\",\"sumarnaema\",\"ronny_hero73\",\"kennydewikaniasari\",\"tatang_muhtar\",\"ellywasliah\",\"eddy.m_\",\"syaifudin4091\",\"sumaryanaghones70\",\"bsukardi67\",\"sw_anton\",\"adijunjunan\",\"momonimron\",\"medimahendra1974\",\"drritaverita\",\"dudy_prayudi\",\"atetdedihandiman\",\"halokidsindonesia\",\"kumbobdg\",\"jejakecil\",\"buumiplayscape\",\"kindycloud\",\"Starlandvaganza\",\"persib\",\"aremafcofficial\",\"baliunitedfc\",\"psbaritoputeraofficial\",\"bhayangkarafc\",\"borneofc.id\",\"dewaunitedfc\",\"maduraunited.fc\",\"officialpersebaya\",\"persija\",\"persikfcofficial\",\"officialpersikabo\",\"persita.official\",\"psisfcofficial\",\"psm_makassar\",\"pssleman\",\"rans.nusantara\",\"persisofficial\",\"galeribobotoh\",\"aremafans\",\"northsideboys12\",\"bartman_bjb\",\"bharamania\",\"pusamaniaidn\",\"kconkbongkar\",\"officialbonekpersebaya\",\"infokomjakmania\",\"tribunpersik\",\"kabomaniaofficial.2007\",\"surakartans.1923\",\"laskarbentengviola.id\",\"themaczmancom\",\"bcsxpss.1976\",\"panserbiru2001\",\"khofifah.ip\",\"edy_rahmayadi\",\"pjgubernuraceh\",\"mahyeldisp\",\"syamsuar.official\",\"alharisjambi\",\"hermanderu67\",\"rohidin.mersyah\",\"arinal_djunaidi\",\"ansar.ahmad.kepri\",\"almuktabar_official\",\"kostergubernurbali\",\"zulkieflimansyah\",\"viktorbungtilulaiskodat\",\"bang.midji\",\"sugianto_sabran\",\"pamanbirin_mu\",\"isrannoor\",\"zainalapaliwang\",\"olly.dondokambey\",\"rusdy_mastura\",\"andisudirman.sulaiman\",\"hamkahendranoer\",\"murad.ismail11\",\"kakabesarsangkomjenanakpapua\",\"lukas.enembe\",\"herubudihartono\",\"prabowo\",\"erickthohir\",\"airlanggahartarto_official\",\"ketua_dprri\",\"cakiminow\",\"tvonenews\",\"metrotv\",\"detikcom\",\"kumparancom\",\"narasinewsroom\",\"cnnindonesia\",\"cnbcindonesia\",\"bbcindonesia\",\"pdemokrat\",\"dpp_pkb\",\"golkar.indonesia\",\"pk_sejahtera\",\"official_nasdem\",\"dpp.ppp\",\"amanatnasional\",\"gerindra\",\"partaiperindo\",\"psi_id\",\"partaigeloraid\",\"pdiperjuangan\",\"partaibulanbintang.official\",\"berkaryaid\",\"pkpi_id\",\"dpp.hanura\",\"republikuindonesia\",\"partaiburuh_\",\"smindrawati\",\"tri_rismaharini_kemensos\",\"johnnyplate\",\"muhadjir_effendy\",\"luhut.pandjaitan\",\"mohmahfudmd\",\"titokarnavian\",\"retno_marsudi\",\"gusyaqut\",\"yasonna.laoly\",\"budigsadikin\",\"idafauziyahnu\",\"agusgumiwangk\",\"zul.hasan\",\"budikaryas\",\"syasinlimpo\",\"siti.nurbayabakar\",\"swtrenggono\",\"halimiskandarnu\",\"hadi.tjahjanto\",\"suharsomonoarfa\",\"tetenmasduki_\",\"bintang.puspayoga\",\"bahlillahadalia\",\"nadiemmakarim\",\"daniramdan0112\",\"iwansetiawan.70\",\"herdiat.sunarya\",\"h.hermansuherman\",\"kangimron.rosyadi\",\"kang_rudy_gunawan\",\"ninagustina1708\",\"cellicanurrachadiana\",\"aceppurnama.official\",\"karna.sobahi\",\"anneratna82\",\"haji_ruhimat\",\"marwan.hamami\",\"adeuusukaesihofficial2013\",\"mastriadhianto\",\"ngatiyana.cimahi\",\"nashrudinazis\",\"idrisashomad\",\"achmadfahmi.smi\",\"kang.yusuf56\",\"bankbjb\",\"bankbjb_university\",\"bankbjb_utamabandung\",\"bankbjb_sukajadi\",\"bankbjb_kprdankkb\",\"bankbjb_garut\",\"bankbjb_palabuhanratu\",\"bankbjb_makassar\",\"bankbjb_purwakarta\",\"bankbjb_kanwil1\",\"bankbjb_ciamis\",\"bankbjb_sukabumi\",\"bankbjb_tegal\",\"bankbjb_kanwil3\",\"bankbjb_denpasar\",\"bankbjb_pangandaran\",\"bankbjb_tangerang\",\"bankbjb_tasikmalaya\",\"bankbjb_patrol\",\"bankbjb_cianjur\",\"bankbjb_cilegon\",\"bankbjb_majalengka\",\"bankbjb_balikpapan\",\"bankbjb_saharjo\",\"bankbjb_sumedang\",\"bankbjb_rasunasaid\",\"bankbjb_dplk\",\"bankbjb_suci\",\"bankbjb_pekanbaru\",\"bankbjb_subang\",\"bankbjb_medan\",\"bankbjb_bandarlampung\",\"bankbjb_kanwil4\",\"bankbjb_bogor\",\"bankbjb.kanwil2\",\"bankbjb_gajahmada\",\"bankbjb_jatinangor\",\"bankbjb_sumber\",\"bankbjb_banjar\",\"bankbjb_kckjakarta\",\"bankbjb_surakarta\",\"bankbjb_surabaya\",\"bankbjb_majalaya\",\"bankbjb_batam\",\"bankbjb_balaraja\",\"bjbbisa\",\"bankbjb_indramayu\",\"bankbjb_kuningan\",\"bankbjb.soreang\",\"bbkjabar\",\"bptphjabar\",\"bbpp_jabar\",\"bidluhjabar\",\"bapeltanjabar\",\"dwpdistanhortijabar\",\"dwpbapeltantph.jabar\",\"bpmektanjabar\",\"bbhortikulturajabar\",\"triharsowidirahmanto\",\"ir_achmadhusein\",\"lani_dwi_rejeki\",\"ariefrohman838\",\"msaid_hidayat\",\"idzapriyanti\",\"tattospamuji\",\"dr.eistianah\",\"juliyatmono.1\",\"h.arifsugiyanto\",\"dicoganinduto\",\"yani_sunarno_snm\",\"hm.hartopo\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+21-01-2023 21:39:00 : cek
+
+------------------------------
+
+21-01-2023 21:33:48 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "8753",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"pkk.kab.cirebon\",\"tppkkkuningan\",\"tppkkmajalengka\",\"pkkkabupatenindramayu\",\"pkk.kabbdg\",\"tp_pkk_kabupaten_garut\",\"pkk.tasikmalayakab\",\"pkkkab.ciamis\",\"pkksumedang\",\"tp.pkk_kota_cimahi\",\"pkk_kotatasik\",\"pkkbdgbarat\",\"pkkpangandaran\",\"pkkdesabarengkok\",\"pkk_kelurahan_keramat\",\"tppkkdesapasirhalang\",\"tp_pkk_mekarsari\",\"tppkkciherangpacet\",\"tppkkcadassari\",\"tppkkdesapa\",\"pkkdesasukasari\",\"pkk_desasumberjaya\",\"pkkmustikajaya\",\"pkk_ciawiasih\",\"pkk_desa_jalatrang_kuningan\",\"pkk_desa_malongpong\",\"pkk_desajatibarang.indramayu\",\"pkk.desalengkong.bagja\",\"tp.pkkbinong\",\"tp_pkk_desa_tarogong\",\"pkkwargakerta\",\"pkkdesakaranganyar\",\"tppkk_kelcilembangkeccihideung\",\"tppkkkarangmekar\",\"pkk_desaciwaruga\",\"tp_pkk_sukajaya\",\"tppkk.babakan\",\"biro_umumjabar\",\"dkpkp.jakarta\",\"distanbun_jtg\",\"dipertakpjatim\",\"dinas.kptph.lampung\",\"distanpanganbali\",\"ntbdistanbun\",\"pertaniantph.sumsel\",\"distphbun_sulsel\",\"bppsdmp\",\"diskominfokrwkab\",\"prokompim.subang\",\"kecamatancileungsi\",\"kecamatanbogortengah\",\"kecamatanleuwiliang\",\"kecamatanbogortimur\",\"kec_bogorutara\",\"kecharjamukti\",\"kecamatanciawi_official\",\"desaciburial\",\"kelurahan_mulyaharja\",\"desamasawah\",\"kelurahancipaku\",\"kel_sempur\",\"kelcimahpar\",\"kel.kedungjaya\",\"kel_babakan\",\"kelurahan_dunguscariang\",\"kelurahan_lebakgede\",\"kabar.bantaeng\",\"boneterkini\",\"info.bulukumba\",\"enrekanginfo\",\"gowa_iinfo\",\"jeneponto_info\",\"selayarinformasi\",\"info.lutim\",\"info_lutra\",\"pinrangupdate\",\"sinjaiinformasi\",\"takalarinfo\",\"diskominfotanatoraja\",\"pemkabtorajautara\",\"diskominfo_palopo\",\"maros.informasi\",\"wiradinatajeje\",\"cecepnurulyakin77\",\"setdasumedang\",\"inspektoratdaerah.kab.sumedang\",\"set.dprd.sumedang\",\"disdik_sumedang\",\"dinkes_sumedang\",\"dinas.putr.kabupaten.sumedang\",\"dpkpp_smdng\",\"satpolpp_sumedang\",\"dinsos.kabsumedang\",\"disnakertrans_sumedang\",\"dlhk.sumedangkab\",\"disdukcapil_sumedang\",\"dpmdkabsumedang\",\"bidang_kb_dppkb_sumedang\",\"dishubsumedang\",\"dpmptsp.sumedang\",\"disparbudpora.kabsumedang\",\"disarpus_smd\",\"bappppedasumedang\",\"bkpsdmsumedang\",\"bkadsumedang\",\"bapenda_sumedang\",\"rsudkabsumedang\",\"kesbangpol.sumedang\",\"bpbdsumedang\",\"infobnn_kabsumedang\",\"kpusumedang\",\"humasjogja\",\"pemkot_solo\",\"pemkotdepok\",\"pemkot_balikpapan\",\"pemkotmadiun_\",\"humaskotatangsel\",\"humas_kota_tangerang\",\"kominfo_pemkot_tsm\",\"kominfopalembang\",\"h.adesugianto\",\"marwanhamamismi\",\"jejewiradinata\",\"kangolehsoleh\",\"iwansaputraofficial\",\"pemkabtasik\",\"diskopukmindagtsmkab\",\"dinsosppkbp3a.kabtasik\",\"bkpsdmkabtasik\",\"kabtasikbppd\",\"dpkpp_kabtasikmalaya\",\"budayatasik\",\"satpolppkabtasik\",\"kesdinkabtasik\",\"disdikkabtasik\",\"bpbdkabtasikmalaya.id\",\"rsud_smcibs\",\"dishubkominfokabtasik\",\"dpmptsptk\",\"disdukcapil_kabtasik\",\"arizapatria\",\"gibran_rakabuming\",\"ahmadsahroni88\",\"airinrachmidiany\",\"zitaanjani\",\"puskesmas_antapani\",\"pkm_ahmadyani\",\"uptpkmarcamanik\",\"puskesmas.astanaanyar\",\"puskesmasbabakansari\",\"pkmbabakansurabaya\",\"pkmbatar_bandung\",\"uptdpkmbabatan.bdg\",\"puskesmasbalaikota\",\"uptpuskesmascaringin\",\"uptpkmcempakaarum\",\"pkmcibaduyutkidul_bandung\",\"pkmciwet\",\"puskesmascibiruhilir\",\"puskesmascibolerang\",\"uptdpuskesmascibuntu\",\"uptpuskesmascigadung\",\"puskesmascigondewah\",\"puskesmascijagrabaru\",\"puskesmas_cijagralama\",\"uptpuskesmascijerah\",\"puskesmas.cikutralama\",\"puskesmas_cilengkrang\",\"upt_puskesmascinambo\",\"pkm_cipadung\",\"puskesmascipaku\",\"pkm.cipamokolan\",\"uptpuskesmascitarip\",\"officialpuskesmasciumbuleuit\",\"puskesmasdago\",\"puskesmasderwati\",\"uptpuskesmasgaruda\",\"puskesmasgirimande\",\"uptpuskesmasgriyaantapani\",\"uptpuskesmasgumuruh\",\"ibra.juara\",\"jajawaypuskesmas\",\"puskesmasjatihandap\",\"uptpkmkarangsetra.bdg\",\"pkmkopo_kotabdg\",\"upt_puskesmaskujangsari\",\"puskesmasledeng\",\"pkmliogentengbdg\",\"puskesmasmramdan\",\"uptpuskesmasmandalamekar\",\"pkm.margahayuraya\",\"officialpuskesmasmengger\",\"uptpuskesmasneglasari\",\"uptpkmpadasuka\",\"uptpagarsih\",\"puskesmaspamulang.bdg\",\"pkmpanghegar_bdg\",\"pkmpanyileukan\",\"puskesmas_pasirjati\",\"pkmpaskal.bdg\",\"uptdpkmpasirlayung\",\"puskesmaspasirluyu\",\"pkmpasundan\",\"uptpkmph_\",\"puskesmas_puter\",\"puskesmas_riungbandung\",\"uptpuskesmasrusunawa\",\"uptdpuskesmassalam\",\"puskesmassarijadi\",\"puskesmas_sekejati\",\"puskesmas_sekeloa\",\"pkmsindangjayabdg\",\"puskesmassukagalih\",\"pkmsukahaji\",\"sukajadipuskesmas\",\"pkmsukapakir\",\"uptdpkmsukaraja.bdg\",\"uptpkmsukarasa\",\"pkmsukawarna\",\"puskesmassuryalaya\",\"pkm_talagabodas\",\"puskesmas_tamansari\",\"puskesmas_tamblong\",\"puskesmas_ujungberungindah\",\"labkeskotabandung\",\"bdgemergency\",\"pkmpasawahanbdg\",\"dinkeskotabogor\",\"dinkeskab.karawang\",\"dinkeskotadepok\",\"dinkeskabbogor\",\"dinkes.kota.tasikmalaya\",\"dinkesmajalengka\",\"dinkeskotabekasi\",\"dinkeskabcianjur\",\"dinkeskotacimahi\",\"dinkesciamis\",\"dinkespromkeskotacirebon\",\"dinkes_indramayu\",\"dinkesbanjar\",\"purbakesa.dinkes\",\"dinkespangandaran\",\"aaiikh\",\"gracemediana\",\"ahyani_raksanagara\",\"tono_rusdiantono\",\"ddg_darmawan\",\"andri_darusman\",\"ginginginanjar66\",\"iskandar5070\",\"didi_ruswandi\",\"sumarnaema\",\"ronny_hero73\",\"kennydewikaniasari\",\"tatang_muhtar\",\"ellywasliah\",\"eddy.m_\",\"syaifudin4091\",\"sumaryanaghones70\",\"bsukardi67\",\"sw_anton\",\"adijunjunan\",\"momonimron\",\"medimahendra1974\",\"drritaverita\",\"dudy_prayudi\",\"atetdedihandiman\",\"halokidsindonesia\",\"kumbobdg\",\"jejakecil\",\"buumiplayscape\",\"kindycloud\",\"Starlandvaganza\",\"persib\",\"aremafcofficial\",\"baliunitedfc\",\"psbaritoputeraofficial\",\"bhayangkarafc\",\"borneofc.id\",\"dewaunitedfc\",\"maduraunited.fc\",\"officialpersebaya\",\"persija\",\"persikfcofficial\",\"officialpersikabo\",\"persita.official\",\"psisfcofficial\",\"psm_makassar\",\"pssleman\",\"rans.nusantara\",\"persisofficial\",\"galeribobotoh\",\"aremafans\",\"northsideboys12\",\"bartman_bjb\",\"bharamania\",\"pusamaniaidn\",\"kconkbongkar\",\"officialbonekpersebaya\",\"infokomjakmania\",\"tribunpersik\",\"kabomaniaofficial.2007\",\"surakartans.1923\",\"laskarbentengviola.id\",\"themaczmancom\",\"bcsxpss.1976\",\"panserbiru2001\",\"khofifah.ip\",\"edy_rahmayadi\",\"pjgubernuraceh\",\"mahyeldisp\",\"syamsuar.official\",\"alharisjambi\",\"hermanderu67\",\"rohidin.mersyah\",\"arinal_djunaidi\",\"ansar.ahmad.kepri\",\"almuktabar_official\",\"kostergubernurbali\",\"zulkieflimansyah\",\"viktorbungtilulaiskodat\",\"bang.midji\",\"sugianto_sabran\",\"pamanbirin_mu\",\"isrannoor\",\"zainalapaliwang\",\"olly.dondokambey\",\"rusdy_mastura\",\"andisudirman.sulaiman\",\"hamkahendranoer\",\"murad.ismail11\",\"kakabesarsangkomjenanakpapua\",\"lukas.enembe\",\"herubudihartono\",\"prabowo\",\"erickthohir\",\"airlanggahartarto_official\",\"ketua_dprri\",\"cakiminow\",\"tvonenews\",\"metrotv\",\"detikcom\",\"kumparancom\",\"narasinewsroom\",\"cnnindonesia\",\"cnbcindonesia\",\"bbcindonesia\",\"pdemokrat\",\"dpp_pkb\",\"golkar.indonesia\",\"pk_sejahtera\",\"official_nasdem\",\"dpp.ppp\",\"amanatnasional\",\"gerindra\",\"partaiperindo\",\"psi_id\",\"partaigeloraid\",\"pdiperjuangan\",\"partaibulanbintang.official\",\"berkaryaid\",\"pkpi_id\",\"dpp.hanura\",\"republikuindonesia\",\"partaiburuh_\",\"smindrawati\",\"tri_rismaharini_kemensos\",\"johnnyplate\",\"muhadjir_effendy\",\"luhut.pandjaitan\",\"mohmahfudmd\",\"titokarnavian\",\"retno_marsudi\",\"gusyaqut\",\"yasonna.laoly\",\"budigsadikin\",\"idafauziyahnu\",\"agusgumiwangk\",\"zul.hasan\",\"budikaryas\",\"syasinlimpo\",\"siti.nurbayabakar\",\"swtrenggono\",\"halimiskandarnu\",\"hadi.tjahjanto\",\"suharsomonoarfa\",\"tetenmasduki_\",\"bintang.puspayoga\",\"bahlillahadalia\",\"nadiemmakarim\",\"daniramdan0112\",\"iwansetiawan.70\",\"herdiat.sunarya\",\"h.hermansuherman\",\"kangimron.rosyadi\",\"kang_rudy_gunawan\",\"ninagustina1708\",\"cellicanurrachadiana\",\"aceppurnama.official\",\"karna.sobahi\",\"anneratna82\",\"haji_ruhimat\",\"marwan.hamami\",\"adeuusukaesihofficial2013\",\"mastriadhianto\",\"ngatiyana.cimahi\",\"nashrudinazis\",\"idrisashomad\",\"achmadfahmi.smi\",\"kang.yusuf56\",\"bankbjb\",\"bankbjb_university\",\"bankbjb_utamabandung\",\"bankbjb_sukajadi\",\"bankbjb_kprdankkb\",\"bankbjb_garut\",\"bankbjb_palabuhanratu\",\"bankbjb_makassar\",\"bankbjb_purwakarta\",\"bankbjb_kanwil1\",\"bankbjb_ciamis\",\"bankbjb_sukabumi\",\"bankbjb_tegal\",\"bankbjb_kanwil3\",\"bankbjb_denpasar\",\"bankbjb_pangandaran\",\"bankbjb_tangerang\",\"bankbjb_tasikmalaya\",\"bankbjb_patrol\",\"bankbjb_cianjur\",\"bankbjb_cilegon\",\"bankbjb_majalengka\",\"bankbjb_balikpapan\",\"bankbjb_saharjo\",\"bankbjb_sumedang\",\"bankbjb_rasunasaid\",\"bankbjb_dplk\",\"bankbjb_suci\",\"bankbjb_pekanbaru\",\"bankbjb_subang\",\"bankbjb_medan\",\"bankbjb_bandarlampung\",\"bankbjb_kanwil4\",\"bankbjb_bogor\",\"bankbjb.kanwil2\",\"bankbjb_gajahmada\",\"bankbjb_jatinangor\",\"bankbjb_sumber\",\"bankbjb_banjar\",\"bankbjb_kckjakarta\",\"bankbjb_surakarta\",\"bankbjb_surabaya\",\"bankbjb_majalaya\",\"bankbjb_batam\",\"bankbjb_balaraja\",\"bjbbisa\",\"bankbjb_indramayu\",\"bankbjb_kuningan\",\"bankbjb.soreang\",\"bbkjabar\",\"bptphjabar\",\"bbpp_jabar\",\"bidluhjabar\",\"bapeltanjabar\",\"dwpdistanhortijabar\",\"dwpbapeltantph.jabar\",\"bpmektanjabar\",\"bbhortikulturajabar\",\"triharsowidirahmanto\",\"ir_achmadhusein\",\"lani_dwi_rejeki\",\"ariefrohman838\",\"msaid_hidayat\",\"idzapriyanti\",\"tattospamuji\",\"dr.eistianah\",\"juliyatmono.1\",\"h.arifsugiyanto\",\"dicoganinduto\",\"yani_sunarno_snm\",\"hm.hartopo\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+21-01-2023 21:33:10 : {
+    "error": {
+        "message": "connect ECONNREFUSED 127.0.0.1:5000",
+        "name": "Error",
+        "stack": "Error: connect ECONNREFUSED 127.0.0.1:5000\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "8753",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"pkk.kab.cirebon\",\"tppkkkuningan\",\"tppkkmajalengka\",\"pkkkabupatenindramayu\",\"pkk.kabbdg\",\"tp_pkk_kabupaten_garut\",\"pkk.tasikmalayakab\",\"pkkkab.ciamis\",\"pkksumedang\",\"tp.pkk_kota_cimahi\",\"pkk_kotatasik\",\"pkkbdgbarat\",\"pkkpangandaran\",\"pkkdesabarengkok\",\"pkk_kelurahan_keramat\",\"tppkkdesapasirhalang\",\"tp_pkk_mekarsari\",\"tppkkciherangpacet\",\"tppkkcadassari\",\"tppkkdesapa\",\"pkkdesasukasari\",\"pkk_desasumberjaya\",\"pkkmustikajaya\",\"pkk_ciawiasih\",\"pkk_desa_jalatrang_kuningan\",\"pkk_desa_malongpong\",\"pkk_desajatibarang.indramayu\",\"pkk.desalengkong.bagja\",\"tp.pkkbinong\",\"tp_pkk_desa_tarogong\",\"pkkwargakerta\",\"pkkdesakaranganyar\",\"tppkk_kelcilembangkeccihideung\",\"tppkkkarangmekar\",\"pkk_desaciwaruga\",\"tp_pkk_sukajaya\",\"tppkk.babakan\",\"biro_umumjabar\",\"dkpkp.jakarta\",\"distanbun_jtg\",\"dipertakpjatim\",\"dinas.kptph.lampung\",\"distanpanganbali\",\"ntbdistanbun\",\"pertaniantph.sumsel\",\"distphbun_sulsel\",\"bppsdmp\",\"diskominfokrwkab\",\"prokompim.subang\",\"kecamatancileungsi\",\"kecamatanbogortengah\",\"kecamatanleuwiliang\",\"kecamatanbogortimur\",\"kec_bogorutara\",\"kecharjamukti\",\"kecamatanciawi_official\",\"desaciburial\",\"kelurahan_mulyaharja\",\"desamasawah\",\"kelurahancipaku\",\"kel_sempur\",\"kelcimahpar\",\"kel.kedungjaya\",\"kel_babakan\",\"kelurahan_dunguscariang\",\"kelurahan_lebakgede\",\"kabar.bantaeng\",\"boneterkini\",\"info.bulukumba\",\"enrekanginfo\",\"gowa_iinfo\",\"jeneponto_info\",\"selayarinformasi\",\"info.lutim\",\"info_lutra\",\"pinrangupdate\",\"sinjaiinformasi\",\"takalarinfo\",\"diskominfotanatoraja\",\"pemkabtorajautara\",\"diskominfo_palopo\",\"maros.informasi\",\"wiradinatajeje\",\"cecepnurulyakin77\",\"setdasumedang\",\"inspektoratdaerah.kab.sumedang\",\"set.dprd.sumedang\",\"disdik_sumedang\",\"dinkes_sumedang\",\"dinas.putr.kabupaten.sumedang\",\"dpkpp_smdng\",\"satpolpp_sumedang\",\"dinsos.kabsumedang\",\"disnakertrans_sumedang\",\"dlhk.sumedangkab\",\"disdukcapil_sumedang\",\"dpmdkabsumedang\",\"bidang_kb_dppkb_sumedang\",\"dishubsumedang\",\"dpmptsp.sumedang\",\"disparbudpora.kabsumedang\",\"disarpus_smd\",\"bappppedasumedang\",\"bkpsdmsumedang\",\"bkadsumedang\",\"bapenda_sumedang\",\"rsudkabsumedang\",\"kesbangpol.sumedang\",\"bpbdsumedang\",\"infobnn_kabsumedang\",\"kpusumedang\",\"humasjogja\",\"pemkot_solo\",\"pemkotdepok\",\"pemkot_balikpapan\",\"pemkotmadiun_\",\"humaskotatangsel\",\"humas_kota_tangerang\",\"kominfo_pemkot_tsm\",\"kominfopalembang\",\"h.adesugianto\",\"marwanhamamismi\",\"jejewiradinata\",\"kangolehsoleh\",\"iwansaputraofficial\",\"pemkabtasik\",\"diskopukmindagtsmkab\",\"dinsosppkbp3a.kabtasik\",\"bkpsdmkabtasik\",\"kabtasikbppd\",\"dpkpp_kabtasikmalaya\",\"budayatasik\",\"satpolppkabtasik\",\"kesdinkabtasik\",\"disdikkabtasik\",\"bpbdkabtasikmalaya.id\",\"rsud_smcibs\",\"dishubkominfokabtasik\",\"dpmptsptk\",\"disdukcapil_kabtasik\",\"arizapatria\",\"gibran_rakabuming\",\"ahmadsahroni88\",\"airinrachmidiany\",\"zitaanjani\",\"puskesmas_antapani\",\"pkm_ahmadyani\",\"uptpkmarcamanik\",\"puskesmas.astanaanyar\",\"puskesmasbabakansari\",\"pkmbabakansurabaya\",\"pkmbatar_bandung\",\"uptdpkmbabatan.bdg\",\"puskesmasbalaikota\",\"uptpuskesmascaringin\",\"uptpkmcempakaarum\",\"pkmcibaduyutkidul_bandung\",\"pkmciwet\",\"puskesmascibiruhilir\",\"puskesmascibolerang\",\"uptdpuskesmascibuntu\",\"uptpuskesmascigadung\",\"puskesmascigondewah\",\"puskesmascijagrabaru\",\"puskesmas_cijagralama\",\"uptpuskesmascijerah\",\"puskesmas.cikutralama\",\"puskesmas_cilengkrang\",\"upt_puskesmascinambo\",\"pkm_cipadung\",\"puskesmascipaku\",\"pkm.cipamokolan\",\"uptpuskesmascitarip\",\"officialpuskesmasciumbuleuit\",\"puskesmasdago\",\"puskesmasderwati\",\"uptpuskesmasgaruda\",\"puskesmasgirimande\",\"uptpuskesmasgriyaantapani\",\"uptpuskesmasgumuruh\",\"ibra.juara\",\"jajawaypuskesmas\",\"puskesmasjatihandap\",\"uptpkmkarangsetra.bdg\",\"pkmkopo_kotabdg\",\"upt_puskesmaskujangsari\",\"puskesmasledeng\",\"pkmliogentengbdg\",\"puskesmasmramdan\",\"uptpuskesmasmandalamekar\",\"pkm.margahayuraya\",\"officialpuskesmasmengger\",\"uptpuskesmasneglasari\",\"uptpkmpadasuka\",\"uptpagarsih\",\"puskesmaspamulang.bdg\",\"pkmpanghegar_bdg\",\"pkmpanyileukan\",\"puskesmas_pasirjati\",\"pkmpaskal.bdg\",\"uptdpkmpasirlayung\",\"puskesmaspasirluyu\",\"pkmpasundan\",\"uptpkmph_\",\"puskesmas_puter\",\"puskesmas_riungbandung\",\"uptpuskesmasrusunawa\",\"uptdpuskesmassalam\",\"puskesmassarijadi\",\"puskesmas_sekejati\",\"puskesmas_sekeloa\",\"pkmsindangjayabdg\",\"puskesmassukagalih\",\"pkmsukahaji\",\"sukajadipuskesmas\",\"pkmsukapakir\",\"uptdpkmsukaraja.bdg\",\"uptpkmsukarasa\",\"pkmsukawarna\",\"puskesmassuryalaya\",\"pkm_talagabodas\",\"puskesmas_tamansari\",\"puskesmas_tamblong\",\"puskesmas_ujungberungindah\",\"labkeskotabandung\",\"bdgemergency\",\"pkmpasawahanbdg\",\"dinkeskotabogor\",\"dinkeskab.karawang\",\"dinkeskotadepok\",\"dinkeskabbogor\",\"dinkes.kota.tasikmalaya\",\"dinkesmajalengka\",\"dinkeskotabekasi\",\"dinkeskabcianjur\",\"dinkeskotacimahi\",\"dinkesciamis\",\"dinkespromkeskotacirebon\",\"dinkes_indramayu\",\"dinkesbanjar\",\"purbakesa.dinkes\",\"dinkespangandaran\",\"aaiikh\",\"gracemediana\",\"ahyani_raksanagara\",\"tono_rusdiantono\",\"ddg_darmawan\",\"andri_darusman\",\"ginginginanjar66\",\"iskandar5070\",\"didi_ruswandi\",\"sumarnaema\",\"ronny_hero73\",\"kennydewikaniasari\",\"tatang_muhtar\",\"ellywasliah\",\"eddy.m_\",\"syaifudin4091\",\"sumaryanaghones70\",\"bsukardi67\",\"sw_anton\",\"adijunjunan\",\"momonimron\",\"medimahendra1974\",\"drritaverita\",\"dudy_prayudi\",\"atetdedihandiman\",\"halokidsindonesia\",\"kumbobdg\",\"jejakecil\",\"buumiplayscape\",\"kindycloud\",\"Starlandvaganza\",\"persib\",\"aremafcofficial\",\"baliunitedfc\",\"psbaritoputeraofficial\",\"bhayangkarafc\",\"borneofc.id\",\"dewaunitedfc\",\"maduraunited.fc\",\"officialpersebaya\",\"persija\",\"persikfcofficial\",\"officialpersikabo\",\"persita.official\",\"psisfcofficial\",\"psm_makassar\",\"pssleman\",\"rans.nusantara\",\"persisofficial\",\"galeribobotoh\",\"aremafans\",\"northsideboys12\",\"bartman_bjb\",\"bharamania\",\"pusamaniaidn\",\"kconkbongkar\",\"officialbonekpersebaya\",\"infokomjakmania\",\"tribunpersik\",\"kabomaniaofficial.2007\",\"surakartans.1923\",\"laskarbentengviola.id\",\"themaczmancom\",\"bcsxpss.1976\",\"panserbiru2001\",\"khofifah.ip\",\"edy_rahmayadi\",\"pjgubernuraceh\",\"mahyeldisp\",\"syamsuar.official\",\"alharisjambi\",\"hermanderu67\",\"rohidin.mersyah\",\"arinal_djunaidi\",\"ansar.ahmad.kepri\",\"almuktabar_official\",\"kostergubernurbali\",\"zulkieflimansyah\",\"viktorbungtilulaiskodat\",\"bang.midji\",\"sugianto_sabran\",\"pamanbirin_mu\",\"isrannoor\",\"zainalapaliwang\",\"olly.dondokambey\",\"rusdy_mastura\",\"andisudirman.sulaiman\",\"hamkahendranoer\",\"murad.ismail11\",\"kakabesarsangkomjenanakpapua\",\"lukas.enembe\",\"herubudihartono\",\"prabowo\",\"erickthohir\",\"airlanggahartarto_official\",\"ketua_dprri\",\"cakiminow\",\"tvonenews\",\"metrotv\",\"detikcom\",\"kumparancom\",\"narasinewsroom\",\"cnnindonesia\",\"cnbcindonesia\",\"bbcindonesia\",\"pdemokrat\",\"dpp_pkb\",\"golkar.indonesia\",\"pk_sejahtera\",\"official_nasdem\",\"dpp.ppp\",\"amanatnasional\",\"gerindra\",\"partaiperindo\",\"psi_id\",\"partaigeloraid\",\"pdiperjuangan\",\"partaibulanbintang.official\",\"berkaryaid\",\"pkpi_id\",\"dpp.hanura\",\"republikuindonesia\",\"partaiburuh_\",\"smindrawati\",\"tri_rismaharini_kemensos\",\"johnnyplate\",\"muhadjir_effendy\",\"luhut.pandjaitan\",\"mohmahfudmd\",\"titokarnavian\",\"retno_marsudi\",\"gusyaqut\",\"yasonna.laoly\",\"budigsadikin\",\"idafauziyahnu\",\"agusgumiwangk\",\"zul.hasan\",\"budikaryas\",\"syasinlimpo\",\"siti.nurbayabakar\",\"swtrenggono\",\"halimiskandarnu\",\"hadi.tjahjanto\",\"suharsomonoarfa\",\"tetenmasduki_\",\"bintang.puspayoga\",\"bahlillahadalia\",\"nadiemmakarim\",\"daniramdan0112\",\"iwansetiawan.70\",\"herdiat.sunarya\",\"h.hermansuherman\",\"kangimron.rosyadi\",\"kang_rudy_gunawan\",\"ninagustina1708\",\"cellicanurrachadiana\",\"aceppurnama.official\",\"karna.sobahi\",\"anneratna82\",\"haji_ruhimat\",\"marwan.hamami\",\"adeuusukaesihofficial2013\",\"mastriadhianto\",\"ngatiyana.cimahi\",\"nashrudinazis\",\"idrisashomad\",\"achmadfahmi.smi\",\"kang.yusuf56\",\"bankbjb\",\"bankbjb_university\",\"bankbjb_utamabandung\",\"bankbjb_sukajadi\",\"bankbjb_kprdankkb\",\"bankbjb_garut\",\"bankbjb_palabuhanratu\",\"bankbjb_makassar\",\"bankbjb_purwakarta\",\"bankbjb_kanwil1\",\"bankbjb_ciamis\",\"bankbjb_sukabumi\",\"bankbjb_tegal\",\"bankbjb_kanwil3\",\"bankbjb_denpasar\",\"bankbjb_pangandaran\",\"bankbjb_tangerang\",\"bankbjb_tasikmalaya\",\"bankbjb_patrol\",\"bankbjb_cianjur\",\"bankbjb_cilegon\",\"bankbjb_majalengka\",\"bankbjb_balikpapan\",\"bankbjb_saharjo\",\"bankbjb_sumedang\",\"bankbjb_rasunasaid\",\"bankbjb_dplk\",\"bankbjb_suci\",\"bankbjb_pekanbaru\",\"bankbjb_subang\",\"bankbjb_medan\",\"bankbjb_bandarlampung\",\"bankbjb_kanwil4\",\"bankbjb_bogor\",\"bankbjb.kanwil2\",\"bankbjb_gajahmada\",\"bankbjb_jatinangor\",\"bankbjb_sumber\",\"bankbjb_banjar\",\"bankbjb_kckjakarta\",\"bankbjb_surakarta\",\"bankbjb_surabaya\",\"bankbjb_majalaya\",\"bankbjb_batam\",\"bankbjb_balaraja\",\"bjbbisa\",\"bankbjb_indramayu\",\"bankbjb_kuningan\",\"bankbjb.soreang\",\"bbkjabar\",\"bptphjabar\",\"bbpp_jabar\",\"bidluhjabar\",\"bapeltanjabar\",\"dwpdistanhortijabar\",\"dwpbapeltantph.jabar\",\"bpmektanjabar\",\"bbhortikulturajabar\",\"triharsowidirahmanto\",\"ir_achmadhusein\",\"lani_dwi_rejeki\",\"ariefrohman838\",\"msaid_hidayat\",\"idzapriyanti\",\"tattospamuji\",\"dr.eistianah\",\"juliyatmono.1\",\"h.arifsugiyanto\",\"dicoganinduto\",\"yani_sunarno_snm\",\"hm.hartopo\"]"
+        },
+        "code": "ECONNREFUSED",
+        "status": null
+    }
+}
+
+------------------------------
+
+21-01-2023 21:32:21 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "8753",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"pkk.kab.cirebon\",\"tppkkkuningan\",\"tppkkmajalengka\",\"pkkkabupatenindramayu\",\"pkk.kabbdg\",\"tp_pkk_kabupaten_garut\",\"pkk.tasikmalayakab\",\"pkkkab.ciamis\",\"pkksumedang\",\"tp.pkk_kota_cimahi\",\"pkk_kotatasik\",\"pkkbdgbarat\",\"pkkpangandaran\",\"pkkdesabarengkok\",\"pkk_kelurahan_keramat\",\"tppkkdesapasirhalang\",\"tp_pkk_mekarsari\",\"tppkkciherangpacet\",\"tppkkcadassari\",\"tppkkdesapa\",\"pkkdesasukasari\",\"pkk_desasumberjaya\",\"pkkmustikajaya\",\"pkk_ciawiasih\",\"pkk_desa_jalatrang_kuningan\",\"pkk_desa_malongpong\",\"pkk_desajatibarang.indramayu\",\"pkk.desalengkong.bagja\",\"tp.pkkbinong\",\"tp_pkk_desa_tarogong\",\"pkkwargakerta\",\"pkkdesakaranganyar\",\"tppkk_kelcilembangkeccihideung\",\"tppkkkarangmekar\",\"pkk_desaciwaruga\",\"tp_pkk_sukajaya\",\"tppkk.babakan\",\"biro_umumjabar\",\"dkpkp.jakarta\",\"distanbun_jtg\",\"dipertakpjatim\",\"dinas.kptph.lampung\",\"distanpanganbali\",\"ntbdistanbun\",\"pertaniantph.sumsel\",\"distphbun_sulsel\",\"bppsdmp\",\"diskominfokrwkab\",\"prokompim.subang\",\"kecamatancileungsi\",\"kecamatanbogortengah\",\"kecamatanleuwiliang\",\"kecamatanbogortimur\",\"kec_bogorutara\",\"kecharjamukti\",\"kecamatanciawi_official\",\"desaciburial\",\"kelurahan_mulyaharja\",\"desamasawah\",\"kelurahancipaku\",\"kel_sempur\",\"kelcimahpar\",\"kel.kedungjaya\",\"kel_babakan\",\"kelurahan_dunguscariang\",\"kelurahan_lebakgede\",\"kabar.bantaeng\",\"boneterkini\",\"info.bulukumba\",\"enrekanginfo\",\"gowa_iinfo\",\"jeneponto_info\",\"selayarinformasi\",\"info.lutim\",\"info_lutra\",\"pinrangupdate\",\"sinjaiinformasi\",\"takalarinfo\",\"diskominfotanatoraja\",\"pemkabtorajautara\",\"diskominfo_palopo\",\"maros.informasi\",\"wiradinatajeje\",\"cecepnurulyakin77\",\"setdasumedang\",\"inspektoratdaerah.kab.sumedang\",\"set.dprd.sumedang\",\"disdik_sumedang\",\"dinkes_sumedang\",\"dinas.putr.kabupaten.sumedang\",\"dpkpp_smdng\",\"satpolpp_sumedang\",\"dinsos.kabsumedang\",\"disnakertrans_sumedang\",\"dlhk.sumedangkab\",\"disdukcapil_sumedang\",\"dpmdkabsumedang\",\"bidang_kb_dppkb_sumedang\",\"dishubsumedang\",\"dpmptsp.sumedang\",\"disparbudpora.kabsumedang\",\"disarpus_smd\",\"bappppedasumedang\",\"bkpsdmsumedang\",\"bkadsumedang\",\"bapenda_sumedang\",\"rsudkabsumedang\",\"kesbangpol.sumedang\",\"bpbdsumedang\",\"infobnn_kabsumedang\",\"kpusumedang\",\"humasjogja\",\"pemkot_solo\",\"pemkotdepok\",\"pemkot_balikpapan\",\"pemkotmadiun_\",\"humaskotatangsel\",\"humas_kota_tangerang\",\"kominfo_pemkot_tsm\",\"kominfopalembang\",\"h.adesugianto\",\"marwanhamamismi\",\"jejewiradinata\",\"kangolehsoleh\",\"iwansaputraofficial\",\"pemkabtasik\",\"diskopukmindagtsmkab\",\"dinsosppkbp3a.kabtasik\",\"bkpsdmkabtasik\",\"kabtasikbppd\",\"dpkpp_kabtasikmalaya\",\"budayatasik\",\"satpolppkabtasik\",\"kesdinkabtasik\",\"disdikkabtasik\",\"bpbdkabtasikmalaya.id\",\"rsud_smcibs\",\"dishubkominfokabtasik\",\"dpmptsptk\",\"disdukcapil_kabtasik\",\"arizapatria\",\"gibran_rakabuming\",\"ahmadsahroni88\",\"airinrachmidiany\",\"zitaanjani\",\"puskesmas_antapani\",\"pkm_ahmadyani\",\"uptpkmarcamanik\",\"puskesmas.astanaanyar\",\"puskesmasbabakansari\",\"pkmbabakansurabaya\",\"pkmbatar_bandung\",\"uptdpkmbabatan.bdg\",\"puskesmasbalaikota\",\"uptpuskesmascaringin\",\"uptpkmcempakaarum\",\"pkmcibaduyutkidul_bandung\",\"pkmciwet\",\"puskesmascibiruhilir\",\"puskesmascibolerang\",\"uptdpuskesmascibuntu\",\"uptpuskesmascigadung\",\"puskesmascigondewah\",\"puskesmascijagrabaru\",\"puskesmas_cijagralama\",\"uptpuskesmascijerah\",\"puskesmas.cikutralama\",\"puskesmas_cilengkrang\",\"upt_puskesmascinambo\",\"pkm_cipadung\",\"puskesmascipaku\",\"pkm.cipamokolan\",\"uptpuskesmascitarip\",\"officialpuskesmasciumbuleuit\",\"puskesmasdago\",\"puskesmasderwati\",\"uptpuskesmasgaruda\",\"puskesmasgirimande\",\"uptpuskesmasgriyaantapani\",\"uptpuskesmasgumuruh\",\"ibra.juara\",\"jajawaypuskesmas\",\"puskesmasjatihandap\",\"uptpkmkarangsetra.bdg\",\"pkmkopo_kotabdg\",\"upt_puskesmaskujangsari\",\"puskesmasledeng\",\"pkmliogentengbdg\",\"puskesmasmramdan\",\"uptpuskesmasmandalamekar\",\"pkm.margahayuraya\",\"officialpuskesmasmengger\",\"uptpuskesmasneglasari\",\"uptpkmpadasuka\",\"uptpagarsih\",\"puskesmaspamulang.bdg\",\"pkmpanghegar_bdg\",\"pkmpanyileukan\",\"puskesmas_pasirjati\",\"pkmpaskal.bdg\",\"uptdpkmpasirlayung\",\"puskesmaspasirluyu\",\"pkmpasundan\",\"uptpkmph_\",\"puskesmas_puter\",\"puskesmas_riungbandung\",\"uptpuskesmasrusunawa\",\"uptdpuskesmassalam\",\"puskesmassarijadi\",\"puskesmas_sekejati\",\"puskesmas_sekeloa\",\"pkmsindangjayabdg\",\"puskesmassukagalih\",\"pkmsukahaji\",\"sukajadipuskesmas\",\"pkmsukapakir\",\"uptdpkmsukaraja.bdg\",\"uptpkmsukarasa\",\"pkmsukawarna\",\"puskesmassuryalaya\",\"pkm_talagabodas\",\"puskesmas_tamansari\",\"puskesmas_tamblong\",\"puskesmas_ujungberungindah\",\"labkeskotabandung\",\"bdgemergency\",\"pkmpasawahanbdg\",\"dinkeskotabogor\",\"dinkeskab.karawang\",\"dinkeskotadepok\",\"dinkeskabbogor\",\"dinkes.kota.tasikmalaya\",\"dinkesmajalengka\",\"dinkeskotabekasi\",\"dinkeskabcianjur\",\"dinkeskotacimahi\",\"dinkesciamis\",\"dinkespromkeskotacirebon\",\"dinkes_indramayu\",\"dinkesbanjar\",\"purbakesa.dinkes\",\"dinkespangandaran\",\"aaiikh\",\"gracemediana\",\"ahyani_raksanagara\",\"tono_rusdiantono\",\"ddg_darmawan\",\"andri_darusman\",\"ginginginanjar66\",\"iskandar5070\",\"didi_ruswandi\",\"sumarnaema\",\"ronny_hero73\",\"kennydewikaniasari\",\"tatang_muhtar\",\"ellywasliah\",\"eddy.m_\",\"syaifudin4091\",\"sumaryanaghones70\",\"bsukardi67\",\"sw_anton\",\"adijunjunan\",\"momonimron\",\"medimahendra1974\",\"drritaverita\",\"dudy_prayudi\",\"atetdedihandiman\",\"halokidsindonesia\",\"kumbobdg\",\"jejakecil\",\"buumiplayscape\",\"kindycloud\",\"Starlandvaganza\",\"persib\",\"aremafcofficial\",\"baliunitedfc\",\"psbaritoputeraofficial\",\"bhayangkarafc\",\"borneofc.id\",\"dewaunitedfc\",\"maduraunited.fc\",\"officialpersebaya\",\"persija\",\"persikfcofficial\",\"officialpersikabo\",\"persita.official\",\"psisfcofficial\",\"psm_makassar\",\"pssleman\",\"rans.nusantara\",\"persisofficial\",\"galeribobotoh\",\"aremafans\",\"northsideboys12\",\"bartman_bjb\",\"bharamania\",\"pusamaniaidn\",\"kconkbongkar\",\"officialbonekpersebaya\",\"infokomjakmania\",\"tribunpersik\",\"kabomaniaofficial.2007\",\"surakartans.1923\",\"laskarbentengviola.id\",\"themaczmancom\",\"bcsxpss.1976\",\"panserbiru2001\",\"khofifah.ip\",\"edy_rahmayadi\",\"pjgubernuraceh\",\"mahyeldisp\",\"syamsuar.official\",\"alharisjambi\",\"hermanderu67\",\"rohidin.mersyah\",\"arinal_djunaidi\",\"ansar.ahmad.kepri\",\"almuktabar_official\",\"kostergubernurbali\",\"zulkieflimansyah\",\"viktorbungtilulaiskodat\",\"bang.midji\",\"sugianto_sabran\",\"pamanbirin_mu\",\"isrannoor\",\"zainalapaliwang\",\"olly.dondokambey\",\"rusdy_mastura\",\"andisudirman.sulaiman\",\"hamkahendranoer\",\"murad.ismail11\",\"kakabesarsangkomjenanakpapua\",\"lukas.enembe\",\"herubudihartono\",\"prabowo\",\"erickthohir\",\"airlanggahartarto_official\",\"ketua_dprri\",\"cakiminow\",\"tvonenews\",\"metrotv\",\"detikcom\",\"kumparancom\",\"narasinewsroom\",\"cnnindonesia\",\"cnbcindonesia\",\"bbcindonesia\",\"pdemokrat\",\"dpp_pkb\",\"golkar.indonesia\",\"pk_sejahtera\",\"official_nasdem\",\"dpp.ppp\",\"amanatnasional\",\"gerindra\",\"partaiperindo\",\"psi_id\",\"partaigeloraid\",\"pdiperjuangan\",\"partaibulanbintang.official\",\"berkaryaid\",\"pkpi_id\",\"dpp.hanura\",\"republikuindonesia\",\"partaiburuh_\",\"smindrawati\",\"tri_rismaharini_kemensos\",\"johnnyplate\",\"muhadjir_effendy\",\"luhut.pandjaitan\",\"mohmahfudmd\",\"titokarnavian\",\"retno_marsudi\",\"gusyaqut\",\"yasonna.laoly\",\"budigsadikin\",\"idafauziyahnu\",\"agusgumiwangk\",\"zul.hasan\",\"budikaryas\",\"syasinlimpo\",\"siti.nurbayabakar\",\"swtrenggono\",\"halimiskandarnu\",\"hadi.tjahjanto\",\"suharsomonoarfa\",\"tetenmasduki_\",\"bintang.puspayoga\",\"bahlillahadalia\",\"nadiemmakarim\",\"daniramdan0112\",\"iwansetiawan.70\",\"herdiat.sunarya\",\"h.hermansuherman\",\"kangimron.rosyadi\",\"kang_rudy_gunawan\",\"ninagustina1708\",\"cellicanurrachadiana\",\"aceppurnama.official\",\"karna.sobahi\",\"anneratna82\",\"haji_ruhimat\",\"marwan.hamami\",\"adeuusukaesihofficial2013\",\"mastriadhianto\",\"ngatiyana.cimahi\",\"nashrudinazis\",\"idrisashomad\",\"achmadfahmi.smi\",\"kang.yusuf56\",\"bankbjb\",\"bankbjb_university\",\"bankbjb_utamabandung\",\"bankbjb_sukajadi\",\"bankbjb_kprdankkb\",\"bankbjb_garut\",\"bankbjb_palabuhanratu\",\"bankbjb_makassar\",\"bankbjb_purwakarta\",\"bankbjb_kanwil1\",\"bankbjb_ciamis\",\"bankbjb_sukabumi\",\"bankbjb_tegal\",\"bankbjb_kanwil3\",\"bankbjb_denpasar\",\"bankbjb_pangandaran\",\"bankbjb_tangerang\",\"bankbjb_tasikmalaya\",\"bankbjb_patrol\",\"bankbjb_cianjur\",\"bankbjb_cilegon\",\"bankbjb_majalengka\",\"bankbjb_balikpapan\",\"bankbjb_saharjo\",\"bankbjb_sumedang\",\"bankbjb_rasunasaid\",\"bankbjb_dplk\",\"bankbjb_suci\",\"bankbjb_pekanbaru\",\"bankbjb_subang\",\"bankbjb_medan\",\"bankbjb_bandarlampung\",\"bankbjb_kanwil4\",\"bankbjb_bogor\",\"bankbjb.kanwil2\",\"bankbjb_gajahmada\",\"bankbjb_jatinangor\",\"bankbjb_sumber\",\"bankbjb_banjar\",\"bankbjb_kckjakarta\",\"bankbjb_surakarta\",\"bankbjb_surabaya\",\"bankbjb_majalaya\",\"bankbjb_batam\",\"bankbjb_balaraja\",\"bjbbisa\",\"bankbjb_indramayu\",\"bankbjb_kuningan\",\"bankbjb.soreang\",\"bbkjabar\",\"bptphjabar\",\"bbpp_jabar\",\"bidluhjabar\",\"bapeltanjabar\",\"dwpdistanhortijabar\",\"dwpbapeltantph.jabar\",\"bpmektanjabar\",\"bbhortikulturajabar\",\"triharsowidirahmanto\",\"ir_achmadhusein\",\"lani_dwi_rejeki\",\"ariefrohman838\",\"msaid_hidayat\",\"idzapriyanti\",\"tattospamuji\",\"dr.eistianah\",\"juliyatmono.1\",\"h.arifsugiyanto\",\"dicoganinduto\",\"yani_sunarno_snm\",\"hm.hartopo\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+21-01-2023 18:57:09 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "29",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\",\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+21-01-2023 18:56:43 : {
+    "error": {
+        "message": "connect ECONNREFUSED 127.0.0.1:5000",
+        "name": "Error",
+        "stack": "Error: connect ECONNREFUSED 127.0.0.1:5000\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "29",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\",\"natanael_cn\"]"
+        },
+        "code": "ECONNREFUSED",
+        "status": null
+    }
+}
+
+------------------------------
+
+21-01-2023 18:55:59 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+21-01-2023 09:12:31 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+21-01-2023 06:14:00 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "8245",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"henggaranggoro\",\"fadiaarafiq.official\",\"mansur_hidayat2\",\"dyahhayuningpratiwi\",\"mbah_hafidz\",\"ngesti.nugraha\",\"mbakyuniselaludihati\",\"etiksuryani_ad1b\",\"umiazizah60\",\"mas.hadik\",\"bupatiwonogiri\",\"bupati.wonosobo\",\"dokter_aziz_\",\"walikotapekalongan\",\"hendrarprihadi\",\"mancity\",\"manchesterunited\",\"liverpoolfc\",\"chelseafc\",\"spursofficial\",\"arsenal\",\"westham\",\"lcfc\",\"officialbhafc\",\"cpfc\",\"brentfordfc\",\"avfcofficial\",\"southamptonfc\",\"everton\",\"leedsunited\",\"fulhamfc\",\"officialafcb\",\"officialnffc\",\"burnleyofficial\",\"watfordfcofficial\",\"norwichcityfc\",\"mulanjameela1\",\"na_nurularifin\",\"krisdayantilemos\",\"riekediahp\",\"desyratnasariterdepan\",\"arzetibi\",\"ekopatriosuper\",\"tommykurniawann\",\"primusyustisio17\",\"si.rano\",\"junicosiahaan\",\"hmfarhanbdg\",\"campaka_harum\",\"kelurahan_ciroyom\",\"kelgaruda\",\"kelurahan_kebon_jeruk\",\"kel.maleber_juara\",\"kelurahan_cibadak_\",\"infokarasak\",\"kelurahan_nyengseret\",\"kel.pelindunghewanbdg\",\"kelurahan_antapanikidul\",\"kel_anteng\",\"kelurahancisarantenwetan\",\"kelurahan_cisarantenkidul\",\"kelurahan_cisaranten_kulon\",\"kel_sukamiskin\",\"kelurahanbabakansari\",\"kelurahanbabakanciparay\",\"kelurahan_cirangrang\",\"kel.margahayuutara\",\"kelurahan.margasuka\",\"kel.sukahaji\",\"kel.batununggal\",\"kelurahan_kujangsari\",\"kelurahan_mengger\",\"kel_cibuntu\",\"cigondewahkaler\",\"cigondewahrahayu\",\"bdg.cijerah\",\"kelgempolsari\",\"kelurahancihapit.bdg\",\"kelurahancitarum.bdg\",\"kelurahantamansari.bdg\",\"kelurahanbinong_kecbatununggal\",\"kelurahan.cibangkong\",\"kelurahangumuruh\",\"kelurahankacapiring34\",\"kelurahan_kebonwaru\",\"info_kelurahanmaleer\",\"kelurahan_samoja\",\"basihberseri\",\"kelurahan.babakantarogong\",\"kelurahanjamika_\",\"kelurahan.kopo\",\"sukaasihbergema\",\"cibaduyut.juara\",\"kelurahancibaduyutkidul\",\"kelurahancibaduyutwetan\",\"kel.kebonlega\",\"kel.mekarwangi\",\"karta.situsaeur.bdg_\",\"kelurahancijawura\",\"kelurahanjatisari\",\"kel_margasari\",\"kelurahansekejati\",\"kelurahan_cigadung\",\"kelurahan_cihaurgeulis\",\"kelurahanneglasari\",\"kelurahan_sukaluyu\",\"kelurahancicadas.bdg\",\"kelurahan.ckt\",\"kelurahan_padasuka.bdg\",\"kelurahan_sukamaju.bdg\",\"kelurahan_sukapada.bdg\",\"kelurahan_cipadung\",\"kelcisurupanmaju\",\"kelurahanpalasari\",\"kelurahan_arjuna\",\"pajajaranjuara\",\"kpamoyanan\",\"paskalbdg\",\"kel_sukaraja\",\"kelurahan.ciumbuleuit\",\"kelurahanhegarmanah\",\"kelurahanledeng\",\"kelurahan_babakanpenghulu\",\"kelurahan_pakemitan\",\"kelurahansukamulya\",\"kelurahancipaganti\",\"dagobersinar\",\"kelurahanlebaksiliwangi\",\"kelurahan_sekeloa\",\"kelurahan_cimincrang99\",\"kel_rancanumpang\",\"kelbabakansurabaya\",\"kelurahan_cicaheum\",\"kebonkangkungbandung\",\"kelsukapura1\",\"burangrangbertasbih\",\"kel_lingkar_selatan\",\"kelurahan_malabar\",\"paledangmencrang_\",\"turanggabahagia\",\"jatihandapjuara\",\"karangpamulang.bdg\",\"pasirimpun.bdg\",\"kelurahan_cipadung_kidul\",\"kelurahan_cipadung_kulon\",\"kelcipadungwetan\",\"kel.mekarmulya\",\"lurahderwati\",\"kelurahanmanjahlega\",\"kelurahan_mekarjaya8\",\"kelurahan_ancol1\",\"kelurahan_balonggede\",\"kelciateul.harmonis\",\"kelurahan.cigereleng\",\"kel.ciseureuh\",\"kel_pasirluyu\",\"kelurahan.pungkur\",\"kelurahan_cipedes\",\"kelurahanpasteur\",\"kelurahansukawarna\",\"kelurahan_gegerkalong\",\"kelurahanisola\",\"kelurahan_sarijadi\",\"kelurahansukarasa\",\"bdg.babakanciamis\",\"bdg.braga\",\"bdg.kebonpisang\",\"bdg.merdeka\",\"kelurahan_cigending\",\"kelurahan.pasanggrahan2022\",\"kelurahan_pasirendah\",\"kelurahan_pasirjati\",\"kelurahan_pasirwangi\",\"kelurahan_karang_anyar\",\"kelurahancibabat\",\"infodisdukcapilcmh\",\"disbudparpora.cimahi\",\"samsatcimahi\",\"dishubkotacimahi\",\"kpu_kota_cimahi\",\"pmikotacimahi\",\"bidangsosialcimahi\",\"bidpenerimaanpengendalian\",\"bkpsdmd_kota_cimahi\",\"kec.cimsel\",\"dlh_cimahi\",\"infobnn_kota_cimahi\",\"kelurahan_padasuka\",\"bps.kota.cimahi\",\"disnaker.kotacimahi\",\"bpbd.cimahikota\",\"disdik_cimahi\",\"pln_cimahi\",\"rscibabat\",\"pkmcimutbisa\",\"puskesmasmelongtengah_\",\"pkm_melongasih\",\"pkm.citeureup.cimahi\",\"kantahkotacimahi\",\"puskesmascibeber_cimahi\",\"puskesmas_cimahitengah\",\"protokolcimahi\",\"kelurahansetiamanah\",\"kesracimahi\",\"inspekcimahi\",\"bappedakotacimahi\",\"persandian.cimahi\",\"dinkescimahi\",\"dinsos.cimahikota\",\"bpkadanggarancmh\",\"jalan_kotacimahi\",\"cimahitechnopark.id\",\"setiamanah_\",\"keccimahiutara\",\"kelurahanciteureup\",\"satpolkotacimahi\",\"ppikotacimahi\",\"demokratkotabandung\",\"pdiperjuangankotabandung\",\"gerindrakotabandung\",\"partaigarudabandung\",\"hanura_kotabandung\",\"pemudaperindo.kota.bandung\",\"gelorakotabandung\",\"partaigolkarkotabandung\",\"psi.kotabandung\",\"pankotabandung\",\"pppkotabandung\",\"pksbandung\",\"dpc.pbb.kota.bdg\",\"pkb_bandung\",\"nasdem.bdg\",\"aanandipurnama\",\"riekesuryaningsih\",\"khairullah902\",\"kanguung_bdg\",\"juniarso_ridwan24\",\"ahmadrahmatp\",\"ferry_cahyad1\",\"yoelyosaphat\",\"imanlestariyono\",\"salmiahrambe\",\"hasan.faozi\",\"kurniabinharun\",\"dudyhimawan\",\"hj.nendensukaesih\",\"erick_darmajaya\",\"achmad_nugraha_\",\"iher_bandung\",\"iher_bdg\",\"deavy_denden\",\"agus_andi_s\",\"rawangga84\",\"1_sitinurjanah\",\"andrirus\",\"ariessupriyatna\",\"drg_susi\",\"entangsuryaman14\",\"isasubagdja\",\"yudicahyadi82\",\"edwinbulesenjaya\",\"mangrizalkh\",\"muhammadalhaddad.se.mm\",\"drgmaya_himawati\",\"nunungnurasiaah\",\"sandimu2015\",\"heri_hermawanofficial\",\"yusupsprd\",\"iwanmpejiwan\",\"achmad.mets\",\"bangfolmersms\",\"kangasmul.id\",\"agusgunawan694\",\"riantonobdg27\",\"kangerwin_bdg\",\"chrisjulianto\",\"asepmahyudinsag\",\"agussalim7283\",\"tedyrusmawan.tr\",\"riana.iya70\",\"riana_enzo\",\"dr.riniayususanti_\",\"kangupepsudrajat\",\"dp2kbp3akbb\",\"dppkbkarawang\",\"dppkbkotabogor1\",\"dppkb_purwakarta\",\"dp2kbp3asubang\",\"dppkb.indramayu\",\"dp3akbmajalengka\",\"dppkbp3a_kabcirebon\",\"dppkbp3a_kab.kuningan\",\"dwp_dppkbpppa_ciamis\",\"dppkbpppagarut\",\"dppkbkabsukabumi\",\"dp3ap2kb.bogor\",\"dp2kbp3a_kotsi\",\"dppkbp3a_kotatasikmalaya\",\"dp3ap2kb_kotacimahi\",\"dp3ap2kb_depok\",\"dppkb_kotabekasi\",\"dppkbkotabanjar\",\"dinasp3ap2kb.kabbogor\",\"bkkbnjawabarat\",\"dppappdki\",\"bkkbn_jateng\",\"bkkbnjatimofficial\",\"bkkbnbali\",\"bkkbnsumaterautara\",\"bkkbnsumsel_official\",\"bkkbndiy\",\"bkkbn.banten.official\",\"bkkbnkalsel\",\"bkkbnkaltim\",\"bkkbnkalteng\",\"cbf_futebol\",\"portugal\",\"afaseleccion\",\"equipedefrance\",\"england\",\"miseleccionmx\",\"equipedumaroc\",\"sefutbol\",\"thekfa\",\"usmnt\",\"bo243_palangkaraya_\",\"Dwispvtra\",\"myati_smtr\",\"jychrsng_\",\"andyodang77\",\"ariston_K_Jati\",\"zlauthan_sidharta\",\"rha_christinaa\",\"elisabetzn\",\"christina.reswan23\",\"Venny.regina\",\"anggreoktarind\",\"dietya_anggrahini\",\"rendhy_anugerah_\",\"ayuning\",\"ahmed_shfdn\",\"abahkeenan\",\"ellieyane69\",\"eky_bamz\",\"novi88777\",\"claratheresiaclaudya\",\"Saiiaayuw\",\"alin.p.d\",\"krissacamp\",\"lusianahidayati\",\"diahardanaa\",\"hidayatisro\",\"laveanasasmita\",\"Setiawan_ybl19\",\"lestyheranata\",\"ryah_arpan\",\"ch.memet14\",\"wijihermantoro\",\"mellyn_riko\",\"Frannsius\",\"NosiAtno\",\"siskayolanda80\",\"yeyen_bastianeman\",\"fazarulanwar21\",\"ahelmani\",\"agrydw_\",\"Ne_vitri\",\"ardhimuin\",\"Bana_Indra\",\"tafabarca\",\"sanjayapoerba\",\"maftuhhmaftuhh\",\"filipigna\",\"mfitriansyah_17\",\"tiaindrianii\",\"Imoelmultazam\",\"christian_sasia\",\"vigas_dru\",\"meilynasibarani\",\"titinbroww\",\"fransiscus.ryan.s\",\"Davidaprianto\",\"g.kaltranoga\",\"yudhaagiet\",\"redy_cup2\",\"supianormantuil\",\"dedyimanuel\",\"fauzi_ujje\",\"arismahar\",\"silpiclau\",\"Angel_azka_Mar\",\"memeirara05\",\"Wahmerry\",\"lanangimbal\",\"Alfrid22\",\"_imajestika\",\"martha.crstna\",\"heraradith\",\"trisnoe\",\"doddy_s07\",\"adityapradanaramadhani\",\"nataaa_ndy\",\"adhe_djinan\",\"Filadelviatirza\",\"putrieka___\",\"Sabatho_\",\"ar.ie7169\",\"ernalailars\",\"h.khrisna\",\"fery_kr26\",\"heynana88\",\"Syahranibudi\",\"_claracla\",\"alexdestevano\",\"Heniasriningpuri\",\"Stephanie__Panjaitan\",\"komang.trio\",\"yoshuacua_\",\"irfan_aho\",\"hendra__wae\",\"eboksw\",\"telsyy\",\"21.Rafen\",\"aldoalvaroo\",\"randy_kristian\",\"rachmad.a.santoso.16\",\"edmynti\",\"yesimelia\",\"hermanbrc\",\"_sudiansyah\",\"kualakurunracing123\",\"rika_jumisaputri\",\"pry8_5\",\"rossiana_gaby\",\"fitrie_fitt12\",\"meiki\",\"novanat26\",\"billyrvandogi\",\"pebri_s95\",\"inung_konco\",\"Adlrr_\",\"uzi_ade\",\"rismilanoviana\",\"karolsebayang\",\"komangsuastaantika\",\"damang_jr\",\"hadibri10\",\"olivia2953\",\"tresamelinda\",\"daulat_saragih\",\"manuellatri\",\"minnyadila\",\"vindra.wijaya\",\"jorjes__\",\"de_asamkamal\",\"andri_saputra92\",\"githaeca\",\"riduansyah_713329\",\"rachmanwahyupurnawan\",\"sugian_28\",\"sahrulabim183\",\"lusiadwm\",\"herta_rialen\",\"monicrust\",\"Yolandaivana\",\"Syaifullah\",\"batman__404\",\"supri5455\",\"adhit_08\",\"rusman\",\"_natharini_\",\"jhon_id21\",\"ambarwanto27\",\"adiputra.619\",\"dydie_wardhani\",\"yenizhi_\",\"ndriazulistri\",\"lily_raisya_21\",\"claudyayas\",\"ruslian_fernando\",\"Abira_al\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
+21-01-2023 06:12:59 : {
+    "error": {
+        "message": "read ECONNRESET",
+        "name": "Error",
+        "stack": "Error: read ECONNRESET\n    at Function.AxiosError.from (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:789:14)\n    at RedirectableRequest.handleRequestError (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\axios\\dist\\node\\axios.cjs:2744:25)\n    at RedirectableRequest.emit (node:events:513:28)\n    at ClientRequest.eventHandlers.<computed> (D:\\PROGRAMMING_JOURNEY\\THE_PROJECTS\\Focuson_Project_DEV\\IdeaGeneratorV2_PROJECT\\IdeaGeneratorv2_DEV\\API_DataSharding\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:513:28)\n    at Socket.socketErrorListener (node:_http_client:494:9)\n    at Socket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:157:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {
+                "Blob": null
+            },
+            "headers": {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+                "User-Agent": "axios/1.2.2",
+                "Content-Length": "15",
+                "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "method": "post",
+            "url": "http://localhost:5000/api/scrape",
+            "data": "[\"natanael_cn\"]"
+        },
+        "code": "ECONNRESET",
+        "status": null
+    }
+}
+
+------------------------------
+
