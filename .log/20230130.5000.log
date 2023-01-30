@@ -1,0 +1,22 @@
+30-01-2023 08:27:37 : {
+            date: Mon, 30 Jan 2023 01:27:37 GMT,
+            code: 200,
+            status: OK,
+            data: {
+               message: SUKSES SCRAPE
+            }
+         }
+
+------------------------------
+
+30-01-2023 08:25:42 : {
+            date: Mon, 30 Jan 2023 01:25:42 GMT,
+            code: 200,
+            status: OK,
+            data: {
+               message: SUKSES SCRAPE
+            }
+         }
+
+------------------------------
+
