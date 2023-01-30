@@ -1,0 +1,17 @@
+{
+    "database": {
+      "host": "localhost",
+      "user": "root",
+      "password": "root",
+      "database": "db_sma2"
+    },
+    "account": {
+        "username": "mesinlokal1",
+        "password": "h312dym0"
+    },
+    "mode": 1,
+    "id_engine": 2,
+    "crawling_cycle": "daily",
+    "constant": {},
+    "port": "6000"
+}
