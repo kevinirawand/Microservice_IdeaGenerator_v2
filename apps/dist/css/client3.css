@@ -1,0 +1,581 @@
+body {
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+
+#chart-container,
+#keyword-source-container,
+#loading-source,
+.pattern-panel-day-content {
+    height: 220px;
+}
+
+@media (min-width: 1601px) {
+
+    #chart-container,
+    #keyword-source-container,
+    #loading-source,
+    .pattern-panel-day-content {
+        height: 330px;
+    }
+}
+
+.loading-box-label {
+    display: flex; 
+    position: absolute; 
+    top: 35px; 
+    width: 100%; 
+    height: 232px; 
+    justify-content: center; 
+    background-color: rgba(30,30,40,0.5); 
+    z-index: 10;
+}
+
+.ui-widget {
+    font-family: inherit;
+}
+
+.ui-datepicker {
+    background-color: #212133;
+    color: white;
+    border-color: #15b4c3 !important;
+}
+
+.ui-datepicker td {
+    width: 30px;
+}
+
+.ui-datepicker .ui-state-default {
+    background: #1e1e2a;
+    color: white;
+    border: 0px;
+}
+
+.ui-datepicker .ui-state-default.ui-state-hover {
+    background: #2C2C41;
+}
+
+.ui-datepicker .ui-state-default.ui-state-active {
+    background: #15b4c3;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    background: #1e1e2a;
+    color: white;
+    border: 0px;
+}
+
+.ui-datepicker .ui-datepicker-header a {
+    background-color: #15b4c3;
+}
+
+
+/* COMMON */
+
+#dropdown-year .dropdown-menu a.selected {
+    background-color: #15b4c3;
+}
+
+
+/* MAIN HEADER */
+.main-header .logo,
+.navbar-header,
+.navbar-custom-menu {
+    height: 64px;
+    padding: 12px;
+}
+
+.main-header .logo {
+    line-height: 40px;
+}
+
+.main-header .logo img {
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: top;
+}
+
+.main-header .logo .logo-lg {
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    float: none;
+}
+
+.btn-logout {
+    width: 120px;
+    height: 30px;
+    line-height: 15px;
+    margin: 5px;
+    margin-right: 36px;
+}
+
+.btn-logout:hover {
+    border-color: #0ED1D6;
+    color: #0ED1D6;
+}
+
+/* SIDE BAR */
+.main-sidebar {
+    padding-top: 64px;
+}
+
+.sidebar-menu>li {
+    margin-top: 12px;
+}
+
+.sidebar-menu>li>a {
+    padding: 0 12px;
+    border-left-width: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.sidebar-menu>li>a>img {
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar-menu>li>a>span {
+    height: 40px;
+    margin-left: 5px;
+}
+
+.sidebar-menu>li.active>a>img {
+    filter: brightness(0) saturate(100%) invert(76%) sepia(48%) saturate(4067%) hue-rotate(132deg) brightness(98%) contrast(89%);
+}
+
+.treeview-menu {
+    padding-left: 0;
+    background-color: #1e1e2a;
+}
+
+.treeview-menu>li>a {
+    padding: 0 12px;
+}
+
+.treeview-menu>li>a>.fa {
+    width: 40px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+}
+
+.treeview-menu>li:hover {
+    background: #2C2C41;
+}
+
+.treeview-menu>li.active>a>.fa {
+    color: #0ED1D6;
+}
+
+.sidebar-menu .treeview-menu>li>a {
+    color: white;
+}
+
+.sidebar-mini.sidebar-collapse .main-sidebar,
+.sidebar-mini.sidebar-collapse .main-header .logo {
+    width: 64px !important;
+}
+
+.sidebar-mini.sidebar-collapse .content-wrapper,
+.sidebar-mini.sidebar-collapse .main-header .navbar {
+    margin-left: 64px !important;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>a>span,
+.sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>.treeview-menu {
+    left: 64px !important;
+    margin-left: 0 !important;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>.treeview-menu {
+    top: 40px !important;
+}
+
+
+/* VIRAL ANALYSIS */
+.box.viral-keyword {
+    background: #1E1E2A;
+}
+
+.box.viral-keyword .box-header {
+    padding: 8px 4px 4px 4px;
+}
+
+.box.viral-keyword .box-title {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0 4px;
+}
+
+.box.viral-keyword .box-body {
+    padding: 4px;
+}
+
+.box.viral-keyword .list-keyword {
+    height: 196px;
+}
+
+.box.viral-keyword .box-keyword,
+.box-source a {
+    margin-bottom: 4px;
+    padding: 4px;
+    padding-right: 9px;
+    display: block;
+}
+
+.box.viral-keyword .box-keyword .keyword {
+    font-size: 10px;
+    line-height: 11px;
+    margin-bottom: 4px;
+}
+
+.box.viral-keyword .btn {
+    font-size: 10px;
+    height: 28px;
+    color: #0ED1D6;
+}
+
+.box.viral-keyword a {
+    cursor: pointer;
+}
+
+.box.viral-keyword a:hover,
+.box.viral-keyword button:hover,
+.box-source a:hover {
+    background-color: #2C2C41;
+}
+
+.box.box-label button:disabled {
+    color: darkred;
+}
+
+.box.viral-keyword a:hover .progress-bar {
+    filter: contrast(150%);
+}
+
+.box-keyword table {
+    width: 100%;
+}
+
+.box-keyword .progress {
+    height: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: #363649;
+}
+
+.box-keyword .value-keyword {
+    padding-left: 4px;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: right;
+    width: 40px;
+}
+
+.box-flat,
+.progress-flat {
+    border-radius: 0;
+}
+
+.progress-flat .progress-bar {
+    border-radius: 0;
+}
+
+.box-source .product-title {
+    color: white;
+}
+
+#input-search button:focus {
+    color: #0ED1D6;
+}
+
+hr {
+    margin: 0;
+}
+
+/* PATTERN */
+.pattern-panel-day {
+    display: inline-block;
+    width: 13.9%;
+    padding: 6px;
+    min-width: 130px;
+}
+
+.pattern-panel-day>div {
+    border-radius: 5px;
+    border: 2px solid #1E1E2A;
+    padding: 7px;
+    background-color: #1E1E2A;
+}
+
+.pattern-panel-day .pattern-panel-day-content {
+    padding-top: 6px;
+}
+
+.pattern-panel-day h4 {
+    border-bottom: 5px solid #1E1E2A;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.pattern-panel-day ul {
+    margin: 0;
+    padding-left: 17px;
+    list-style: none;
+}
+
+.pattern-panel-day ul li:before {
+    font: normal normal normal 10px/1 "Font Awesome 5 Free";
+    content: "\f111";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.5em;
+    margin-right: 0.5em;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.pattern-panel-day a {
+    color: white;
+}
+
+.pattern-panel-day a:hover {
+    color: #15b4c3;
+}
+
+.pattern-panel-source {
+    padding: 6px;
+    padding-right: 2%;
+}
+
+.pattern-panel-source>div {
+    background-color: #1e1e2a;
+    border-radius: 5px;
+    padding: 15px;
+    height: 267px;
+}
+
+.pattern-panel-source img {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+.pattern-panel-source .row>div>div {
+    padding: 8px;
+}
+
+.pattern-panel-source .row>div>div>div {
+    display: block;
+    margin-left: 40px;
+    height: 25px;
+}
+
+.pattern-panel-source a {
+    font-size: 0.8em;
+    white-space: nowrap;
+}
+
+.btn,
+.box.box-solid>.box-header>.box-tools .btn,
+.dropdown-menu {
+    color: white;
+    background-color: transparent;
+    border: 2px solid #15b4c3;
+    border-radius: 10px;
+}
+
+.btn:hover,
+.box.box-solid>.box-header>.box-tools .btn:hover,
+.box.box-solid>.box-header a:hover {
+    color: white;
+    background-color: rgba(21, 180, 195, 0.8);
+}
+
+/* COMPETITOR */
+.box-fair-score #dropdown-competitors .dropdown-menu a.disabled {
+    text-decoration: line-through;
+}
+
+.box-fair-score #dropdown-competitors .dropdown-menu a:focus {
+    background-color: unset !important;
+}
+
+.box-fair .box-keyword .value-keyword {
+    width: 55px;
+}
+
+.month-picker {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.month-picker-year-table .ui-button {
+    line-height: 26px;
+    padding: 0;
+}
+
+.month-picker-year-table .month-picker-title .ui-button {
+    line-height: 21px;
+}
+
+/* SELF PERFORMANCE */
+#self-performance span.spacer {
+    display: inline-block;
+    width: 20px;
+}
+
+#self-performance .products-list {
+    line-height: 16px;
+}
+
+#self-performance .products-list .product-title {
+    font-size: 12px;
+    font-weight: normal;
+    color: #15b4c3;
+}
+
+#self-performance .products-list .product-description {
+    font-size: 11px;
+    color: white;
+}
+
+#self-performance .products-list .product-description .fa-heart {
+    color: deeppink;
+}
+
+#self-performance .speedometer {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#self-performance .gauge-activity .speedometer {
+    background: url('../image/gauge_activity.svg') center center no-repeat;
+}
+
+#self-performance .gauge-responsiveness .speedometer {
+    background: url('../image/gauge_responsiveness.svg') center center no-repeat;
+    
+}
+
+@media (min-width: 1601px) {
+    #self-performance .speedometer {
+        height: 290px;
+    }
+}
+
+#self-performance .speedometer .gauge-hand {
+    height: 320px;
+    transform: translateY(70px);
+    transition: transform 1s;
+}
+
+#self-performance .svg-green img {
+    filter: brightness(0) saturate(100%) invert(55%) sepia(78%) saturate(422%) hue-rotate(78deg) brightness(91%) contrast(87%);
+}
+
+#self-performance .svg-red img {
+    filter: brightness(0) saturate(100%) invert(41%) sepia(69%) saturate(5609%) hue-rotate(338deg) brightness(90%) contrast(103%);
+}
+
+#self-performance .svg-yellow img {
+    filter: brightness(0) saturate(100%) invert(81%) sepia(100%) saturate(393%) hue-rotate(348deg) brightness(98%) contrast(99%);
+}
+
+/* LOADING */
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #fff;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+}
+@keyframes lds-facebook {
+    0% {
+        top: 8px;
+        height: 64px;
+    }
+    50%, 100% {
+        top: 24px;
+        height: 32px;
+    }
+}
+
+.lds-facebook-24 {
+    display: inline-flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 36px;
+    height: 24px;
+}
+.lds-facebook-24 div {
+    width: 18%;
+    height: 50%;
+    margin: auto;
+    background: #fff;
+    animation: lds-facebook-24 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook-24 div:nth-child(1) {
+    animation-delay: -0.24s;
+}
+.lds-facebook-24 div:nth-child(2) {
+    animation-delay: -0.12s;
+}
+.lds-facebook-24 div:nth-child(3) {
+    animation-delay: 0;
+}
+@keyframes lds-facebook-24 {
+    0% {
+        height: 100%;
+    }
+    50%, 100% {
+        height: 60%;
+        opacity: 0.6;
+    }
+}
+
+.ui-dialog.ui-widget-content {
+    background-color: #1e1e2a;
+}
+
+.ui-dialog-title {
+    font-size: 16px;
+}
+
+.ui-dialog-titlebar-close {
+    outline: 0;
+}

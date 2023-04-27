@@ -1,0 +1,16 @@
+body {
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+
+.box.viral-keyword > .box-body {
+    height: 245px;
+}
+ 
+.box.viral-keyword a {
+    cursor: pointer;
+}
+
+.main-header .logo {
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}

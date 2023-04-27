@@ -1,0 +1,39 @@
+.btn-table-option {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 3px;
+}
+
+.size-30 {
+    font-size: 30px !important;
+}
+
+input.size-30 {
+    height: unset !important;
+}
+
+.draggable {
+    z-index: 99;
+}
+
+.content-header>.breadcrumb>li+li:before {
+    content: ' ';
+}
+
+.ui-checkboxradio-checked {
+    background: #007fff;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.sidebar-menu > li > a > .fa {
+    margin-right: 10px;
+    text-align: center;
+}
+
+.main-header .sidebar-toggle::before {
+    content: '';
+}

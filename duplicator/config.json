@@ -1,0 +1,11 @@
+{
+    "database": {
+      "host": "localhost",
+      "username": "root",
+      "password": "",
+      "databasename": "ideageneratorv2"
+    },
+    "id_engine": 1,
+    "crawling_cycle": "daily",
+    "custom_cycle_num_days": null
+  }

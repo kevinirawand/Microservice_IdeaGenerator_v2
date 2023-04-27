@@ -1,0 +1,1 @@
+ALTER TABLE `tbl_scraping` ADD `category` ENUM('L', 'M', 'H') NULL DEFAULT NULL AFTER `completed`;
